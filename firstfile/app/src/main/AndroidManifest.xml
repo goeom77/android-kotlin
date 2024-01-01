@@ -13,6 +13,12 @@
         android:theme="@style/Theme.Firstfile"
         tools:targetApi="31">
         <activity
+            android:name=".Blog2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".BlogActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
