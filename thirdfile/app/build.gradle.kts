@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.goeom77.secondfile"
+    namespace = "com.goeom77.thirdfile"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.goeom77.secondfile"
+        applicationId = "com.goeom77.thirdfile"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -36,7 +36,6 @@ android {
     buildFeatures {
         dataBinding = true
     }
-
 }
 
 dependencies {
